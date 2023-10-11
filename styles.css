@@ -4,6 +4,17 @@ body {
 }
 
 h1{
-color: red;
+color: brown;
 text-align:center;
+}
+
+.assign{
+    margin: 10px;
+    padding: 10px;
+background-color: grey;
+    display: flex;
+}
+.assign img {
+    width: 200px;
+    padding: 10px;
 }
