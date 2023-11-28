@@ -67,3 +67,11 @@ a {
  margin: 10px;
  border: 2px dotted yellow;
 }
+a {
+ text-decoration: none; 
+ color: midnightblue;
+}
+.assign img {
+ padding: 10px;
+ border: 2px solid midnightblue;
+}
