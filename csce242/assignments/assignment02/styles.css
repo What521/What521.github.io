@@ -1,0 +1,58 @@
+body{
+    background: orange;
+    font-family:Arial, Helvetica, sans-serif;
+    background: url(images/image_3.jfif);
+}
+
+#content{
+    border: solid black;
+    padding: 1px;
+}
+
+footer{
+    text-align: center;
+    background: black;
+    color: orange;
+    border: solid saddlebrown;
+}
+
+header{
+    background: black;
+    border: solid orange;
+    color: orange;
+    padding: 3px;
+}
+h1{
+    text-align: center;
+}
+
+nav a{
+   color: orange;
+}
+
+main{
+    background: orange;
+    padding: 3px;
+    border: solid black;
+}
+
+h2{
+    text-align: center;
+}
+
+nav a:hover{
+    color:white;
+}
+
+img{
+    
+    padding: 3px;
+    border: solid black;
+}
+
+table{
+    padding: 5px;
+    border: solid black;
+    background: orange;
+}
+

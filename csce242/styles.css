@@ -1,0 +1,31 @@
+body{
+    background: darkturquoise;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    background: palegreen;
+    color: crimson;
+}
+
+#name{
+    background: black;
+    color: yellowgreen;
+}
+
+#title{
+    background: black;
+    color: yellowgreen;
+}
+
+p{
+    color: black;
+}
+
+#links li a{
+    text-decoration: none;
+    color: white;
+}
+#links li a:hover{
+    color: black;
+}
