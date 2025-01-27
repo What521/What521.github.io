@@ -1,0 +1,152 @@
+body{
+    background: lightblue;
+    color: blue;
+    border: solid blanchedalmond;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header h2{
+    text-align: center;
+}
+
+header h3{
+    padding-left: 100px;
+}
+
+#links ul{
+    background: grey;
+    padding-left: 0;
+}
+
+#links li{
+    list-style-type: none;
+    padding: 3px;
+    background: grey;
+    border: solid black 1px;
+    text-align: center;
+}
+
+#links a{
+    text-decoration: none;
+    color: white;
+}
+
+#links li a:hover{
+    color: crimson;
+}
+
+#idea_1{
+    border: solid black 1px;
+    padding-left: 100px;
+    padding-right: 100px; 
+    background: aqua;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding:3px;
+    padding-top: 1px;
+    margin-bottom: 10px;
+}
+
+#idea_2{
+    border: solid black 1px;
+    padding-right: 100px; 
+    background: aqua;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding:3px;
+    padding-top: 1px;
+    margin-bottom: 10px;
+}
+
+
+#idea_3{
+    border: solid black 1px;
+    padding-left: 100px;
+    padding-right: 100px; 
+    background: aqua;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding:3px;
+    padding-top: 1px;
+    margin-bottom: 10px;
+}
+
+#links2{
+    background: white;
+}
+
+#links2{
+    padding-left: 0px;
+    padding-right: 78px;
+}
+
+#links2 h3{
+    padding-right: 90px;
+}
+
+#links2 li{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+footer{
+    background: whitesmoke;
+    text-align: center;
+    padding: 9px;
+}
+
+#T112233{
+    margin-bottom: 50px;
+}
+
+#T1234 h3{
+   text-align: center;
+}
+
+#T123456 h3{
+    text-align: center;
+}
+
+#T11, #T44{
+    margin-left: 3px;
+}
+
+main{
+    background: blanchedalmond;
+    border: solid blanchedalmond 1px;
+}
+
+@media(min-width: 900px)
+{
+    #links ul
+    {
+        display:flex;
+    }
+
+    #links li
+    {
+        flex:1;
+    }
+
+    #idea_1, #idea_2, #idea_3
+    {
+       display: flex;
+    }
+
+    #T1T2, #T3T4
+    {
+        display: flex;
+    }
+
+
+    #T112233, #T445566
+    {
+        display: flex;
+    }
+
+    main{
+        display: flex;
+    }
+
+
+}

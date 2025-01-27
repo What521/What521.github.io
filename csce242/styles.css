@@ -4,6 +4,7 @@ body{
 }
 
 h1{
+    text-align: center;
     background: palegreen;
     color: crimson;
 }
@@ -11,21 +12,45 @@ h1{
 #name{
     background: black;
     color: yellowgreen;
+    padding: 2px;
 }
 
 #title{
+    text-align: center;
     background: black;
     color: yellowgreen;
+    padding :2px;
 }
 
 p{
     color: black;
 }
 
+#links li{
+    list-style-type: none;
+    padding: 5px;
+    background: grey;
+    border-bottom: 1px solid black;
+    margin: 20px;
+    text-align: center;
+}
+
 #links li a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 #links li a:hover{
-    color: black;
+    color: crimson;
+}
+
+@media(min-width: 900px){
+    #links ul{
+        display: flex;
+    }
+
+    #links li{
+        flex:1;
+
+    }
+
 }
