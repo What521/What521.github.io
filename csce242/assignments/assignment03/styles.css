@@ -89,6 +89,10 @@ header h3{
     padding-left: 0px;
 }
 
+#links2 li a:hover{
+ color: crimson;
+}
+
 footer{
     background: whitesmoke;
     text-align: center;
