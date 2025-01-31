@@ -43,6 +43,23 @@ p{
     color: crimson;
 }
 
+#links2 li{
+    list-style-type: none;
+    padding: 5px;
+    background: grey;
+    border-bottom: 1px solid black;
+    margin: 20px;
+    text-align: center;
+}
+
+#links2 li a{
+    text-decoration: none;
+    color: black;
+}
+#links2 li a:hover{
+    color: crimson;
+}
+
 @media(min-width: 900px){
     #links ul{
         display: flex;
@@ -51,6 +68,14 @@ p{
     #links li{
         flex:1;
 
+    }
+
+    #links2 ul{
+        display: flex;
+    }
+
+    #links2 li{
+        flex:1;
     }
 
 }

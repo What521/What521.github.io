@@ -1,0 +1,22 @@
+#animations{
+    background: bisque;
+    padding: 50px;
+}
+
+#ball{
+    height: 30px;
+    width: 30px;
+    background: white;
+    border-radius: 50px;
+    animation-name: fon;
+    animation-duration: 1s;
+}
+
+@keyframes fon {
+    0%{background-color: red;}
+    20%{background-color: orange;}
+    40%{background-color: aqua;}
+    60%{background-color: brown;}
+    80%{background-color: aquamarine;}
+    100%{background-color:aqua;}
+}
