@@ -1,0 +1,215 @@
+
+#black{
+    background: black;
+    padding: 9px;  
+}
+
+#black img{
+margin-left: 35px;
+padding-left: 40px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+#red{
+    background: maroon;
+    color: white;
+padding:1px;
+}
+
+#maroon{
+    background: #6d1616;
+    color:white;
+    padding: 9px;
+}
+
+#maroon img{
+    margin-left: 35px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#grey{
+    margin-top: 110px;
+    background: whitesmoke;
+    color:black;
+}
+
+#grey h2{
+    margin-left: 55px;
+    padding-left: 35px;
+ }
+
+ #grey ul{
+    font-size: 17px;
+ }
+
+#red h2{
+   margin-left: 55px;
+   padding-left: 35px;
+}
+
+#text ul, #text2 ul{
+    list-style-type: none;
+}
+
+#text li, #text2 ul{
+    padding-left: 10px;
+}
+#text, #text2{
+    color: white;
+    font-size: 9px;
+    margin-left: 180px;
+}
+
+#text a{
+    color: white;
+    text-decoration: none;
+}
+
+#text2 a{
+    color: black;
+    text-decoration: none;
+}
+
+#text a:hover, #text2 a:hover{
+    color:red;
+}
+
+#image{
+    text-align: center;
+}
+
+#image img{
+    margin-top: 15px;
+}
+
+#list2{
+    font-size: 20px;
+    margin-left: 35px;
+}
+
+#list2 ul{
+    list-style-type: none;
+  }
+
+#list2 li{
+    margin-bottom: 10px;
+    border-bottom: solid gray 1px;
+}
+
+#list2 a{
+    text-decoration: none;
+    color:black;
+}
+
+#list2 a:hover{
+    color: red;
+}
+
+#title{
+    color:maroon;
+}
+
+#content2{
+    margin-left: 40px;
+    font-size: 20px;
+    margin-right: 19px;
+}
+
+#para{
+    border-bottom: solid gray 1px;
+    padding-bottom:30px;
+}
+
+#images{
+    margin-bottom: 40px;
+}
+
+#images p{
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+#images a{
+    text-decoration: none;
+    color: maroon;
+}
+
+#heading2{
+    margin-left: 295px;
+    color: maroon;
+}
+
+#video{
+    margin-top: 30px;
+}
+
+#socialmedia img{
+margin-left: 6px;
+}
+
+#textInVid{
+    margin-left: 10px;
+}
+
+#textInVid p{
+    color:black;
+}
+
+#textInVid a{
+    text-decoration: none;
+    color: maroon;
+}
+
+#video{
+    border-bottom: solid gray 1px;
+}
+
+#text2 li{
+    margin-left: 45px;
+    color: black;
+}
+
+#socialM{
+    margin-left: 490px;
+}
+
+@media(min-width: 800px)
+{
+    
+#black{
+    display: flex;
+}
+#text, #text2{
+    display: flex;
+}
+
+#text ul, #text2 ul{
+    display: flex;
+   
+}
+
+#grey{
+    display: flex;
+}
+
+#content1{
+    display: flex;
+}
+
+#images{
+    display: flex;
+}
+
+#video{
+    display: flex;
+}
+
+#maroon{
+    display: flex;
+}
+
+}
+
