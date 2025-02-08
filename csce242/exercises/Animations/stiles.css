@@ -1,22 +1,30 @@
+:root{
+    --main-background-color: #CDECEF;
+    --primar-color: #2B91AD;
+    --galler-color: #ffb5ff;
+}
+
 #animations{
-    background: bisque;
+    background: var(--main-background-color);
     padding: 50px;
 }
 
 #ball{
     height: 30px;
     width: 30px;
-    background: white;
+    background: var(--primar-color);
     border-radius: 50px;
     animation-name: fon;
     animation-duration: 1s;
 }
 
 @keyframes fon {
-    0%{background-color: red;}
-    20%{background-color: orange;}
+    0%{background-color: red; top: 0; left:0;}
+    20%{background-color: var(--galler-color);}
     40%{background-color: aqua;}
-    60%{background-color: brown;}
+    60%{background-color: brown; left: 100px; top: 200px;}
     80%{background-color: aquamarine;}
-    100%{background-color:aqua;}
+    100%{background-color:aqua;
+    top: 200px;
+left: 0;}
 }

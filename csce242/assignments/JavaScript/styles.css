@@ -1,0 +1,67 @@
+body{
+    background: lightsalmon;
+}
+
+header{
+    text-align:center;
+    padding: 15px;
+}
+
+header h1{
+    color: darkcyan;
+}
+
+header h2{
+    color: lightgreen;
+}
+
+#jsScripts{
+    text-align: center;
+    background: lightsalmon;
+    color: darkcyan;
+}
+
+#jsScripts ul{
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+#jsScripts li{
+    background: lightgreen;
+    margin-left: 50px;
+    padding-bottom: 30px;
+}
+
+footer{
+    background: lightcoral;
+    text-align: center;
+    padding: 9px;
+}
+
+#result{
+    text-align: left;
+    padding-left: 20px;
+}
+
+#star {
+    width: 300px;  
+    aspect-ratio: 1;
+    background: #F8CA00;
+    clip-path: polygon(50% 0,
+      calc(50%*(1 + sin(.4turn))) calc(50%*(1 - cos(.4turn))),
+      calc(50%*(1 - sin(.2turn))) calc(50%*(1 - cos(.2turn))),
+      calc(50%*(1 + sin(.2turn))) calc(50%*(1 - cos(.2turn))),
+      calc(50%*(1 - sin(.4turn))) calc(50%*(1 - cos(.4turn))) 
+     ); 
+  }
+
+@media(min-width: 900px){
+    #jsScripts ul{
+        display: flex;
+    }
+
+    #jsScripts li{
+        flex: 1;
+
+    }
+}

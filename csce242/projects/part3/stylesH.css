@@ -1,0 +1,40 @@
+header h1{
+    text-align: center;
+}
+
+#links ul{
+    padding-left: 0;
+}
+
+#links li{
+    list-style-type: none;
+    padding: 3px;
+    border: solid black 1px;
+    text-align: center;
+}
+
+ul a{
+    text-decoration: none;
+    color: black;
+}
+
+ul li a:hover{
+    color: crimson;
+}
+
+#randomPosters img{
+    padding-left: 90px;
+}
+
+@media(min-width: 900px)
+{
+    #links ul
+    {
+        display:flex;
+    }
+
+    #links li
+    {
+        flex:1;
+    }
+}

@@ -1,0 +1,53 @@
+header h1{
+    text-align: center;
+}
+
+#links ul{
+    padding-left: 0;
+}
+
+#links li{
+    list-style-type: none;
+    padding: 3px;
+    border: solid black 1px;
+    text-align: center;
+}
+
+#links a{
+    text-decoration: none;
+    color: black;
+}
+
+#links li a:hover{
+    color: crimson;
+}
+
+body p{
+    font-size: 28px;
+}
+
+main img{
+    padding-left: 110px;
+}
+
+@media(min-width: 900px)
+{
+    #links ul
+    {
+        display:flex;
+    }
+
+    #links li
+    {
+        flex:1;
+    }
+
+    #actionImg, #comedyImg, #romanceImg
+    {
+        display: flex;
+    }
+
+    #actionImg img, #comedyImg img, #romanceImg img{
+        flex: 1;
+    }
+}
