@@ -5,7 +5,7 @@ document.getElementById("hello-printer").onclick = () =>{
 
 const svgEl = document.querySelector("svg"); 
 colorChanger.addEventListener("input", function() {
-    svgEl.setAttribute("fill", colorChanger.value);
+    svgEl.setAttribute("fill", colorChanger.value);  
 });
 
 document.getElementById("image1").onclick = () => {

@@ -26,7 +26,7 @@ ul li a:hover{
     padding-left: 90px;
 }
 
-@media(min-width: 900px)
+@media(min-width: 1200px)
 {
     #links ul
     {

@@ -10,7 +10,7 @@ document.getElementById("btn-color").onclick = () => {
   messageP.innerHTML = "Good bye";
   messageP.classList.toggle("sad");
 
-};
+}
 
 //happy script
 document.getElementById("btn-happy").onclick = () => {
@@ -32,13 +32,78 @@ document.getElementById("btn-clear").onclick = () => {
   document.getElementById("display").classList.add("hidden");
 };
 
-document.getElementById("mi attempet").onclick = () =>{
-  document.getElementById("response").innerHTML="Good times";
+//key down
+document.getElementById("txt-emotion").onkeyup = (event) => {
+  //const emotion = document.getElementById("txt-emotion").value;
+  document.getElementById("emotional-message").innerHTML = 
+  "You are feeling " + event.currentTarget.value;
 };
 
-document.getElementById("txt-emotion").onkeydown = (event) =>
+document.getElementById("txt-ColorEmotion").onclick = () =>{
+ const color = document.getElementById("txt-ColorEmotional").value.toLowerCase().trim();
+ let mood ="Happy";
+
+ if(color == "blue"){ 
+  mood = "grumpy";
+ }
+
+ else if(color == "yellow"){
+  mood="mellow";
+ }
+
+ else{
+
+ }
+
+ document.getElementById("ColorEmotional-message").innerHTML = 'You chose ${color}.'
+};
+
+//toggling the nav
+document.getElementById("toggle-nav").onclick = () => {
+  document.getElementById("nav-items").classList.toggle("hide-small");
+};
+
+let pos = 0;
+const changeCirclePos = (increment) => {
+    pos += increment;
+    document.getElementById("circle").style.setProperty("top", pos + "px");
+};
+
+document.getElementById("btn-down").onclick = () => {
+    changeCirclePos(10);
+}
+
+document.getElementById("btn-up").onclick = () => {
+    changeCirclePos(-10);
+}
+
+document.getElementById("btn-pick-color").onclick = (event) => {
+  const color = event.currentTarget.value;
+  document.getElementById("circle").style.setProperty("background", color);
+}
+
+const GOAL = 1000;
+let donations = 0;
+
+document.getElementById("goal-displa").innerHTML = 'Goal $${GOAL}';
+
+document.getElementById("btn-add-donation").onclick = () =>{
+
+const donation = document.getElementById("txt-donation").value;
+document.getElementById("donation-error").classList.add("hidden");
+
+if(isNaN(donation) || donation <= 0)
 {
-  //const emotion = document.getElementById("txt-emotion").value;
-   document.getElementById("emotional-message").innerHTML =
-   "You are feeling" + event.currentTarget.value;
+  document.getElementById("donation-error").classList.remove("hidden");
+  return;
+}
+
+donations += donation;
+donationPercent = donations / GOAL * 100;
+
+//show donation message
+document.getElementById("donation-message").innerHTML = '$${GOAL - donations} to go!';
+
+document.getElementById("thermometer").style.setProperty("--donation-percent", donationPercent + "%");
+
 };
