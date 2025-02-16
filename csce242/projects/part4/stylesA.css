@@ -34,9 +34,6 @@ body p{
     font-size: 28px;
 }
 
-main img{
-    padding-left: 110px;
-}
 
 #toggle-bar div{
     width:25px;
@@ -47,6 +44,11 @@ main img{
 
 .hide-small{
     display: none;
+}
+
+#images img 
+{
+    padding : 14px;
 }
 
 @media only screen and (min-width: 1200px)
@@ -67,5 +69,15 @@ main img{
     #links li
     {
         flex:1;
+    }
+
+    #images
+    {
+        display: flex;
+    }
+
+    #images img
+    {
+        flex: 1;
     }
 }

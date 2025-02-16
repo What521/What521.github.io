@@ -2,7 +2,7 @@ body{
     background: crimson;
     color: lightgoldenrodyellow;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
+     text-align: center;
 }
 
 h1{
@@ -43,6 +43,10 @@ h1{
     display: none;
 }
 
+#images img{
+    padding: 9px;
+}
+
 @media only screen and (min-width: 1200px)
 {
 
@@ -63,4 +67,14 @@ h1{
     .hide-small{
         display: flex;
     }
+
+     #images
+     {
+        display: flex;
+     }
+
+     #images img
+     {
+        flex: 1;
+     }
 }
