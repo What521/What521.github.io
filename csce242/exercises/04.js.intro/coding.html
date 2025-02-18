@@ -18,7 +18,7 @@
                     <ul id="nav-items" class="columns hide-small">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="coding.html">JavaScript</a></li>
-                        <li><a href="#">Blog</a></li>
+                        <li><a href="loops.html">Loops</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </nav>
@@ -50,7 +50,7 @@
                     <p id="display" class="hidden"></p>
                 </section>
                 <section>
-                    <h3>Emotions</h3> 
+                    <h3>Emotions</h3>
                     <p>
                         <label for="txt-emotion">Enter Feeling</label>
                         <input type="text" id="txt-emotion">
@@ -58,13 +58,15 @@
                     <p id="emotional-message"></p>
                 </section>
                 <section>
-                    <h3>Color</h3>
                     <p>
-                        <label for="txt-color">Enter Color</label>
-                        <input type="text" id="txt-ColorEmotion">
+                        <label for="txt-color">Enter Color: </label>
+                        <input type="text" id="txt-color">
                     </p>
-                    <p id="ColorEmotional-message"></p>
-
+                    <p>
+                        <button id="btn-choose-color">Show Color</button>
+                    </p>
+                    
+                    <p id="color-message"></p>
                 </section>
                 <section id="ball-area">
                     <p>
@@ -75,15 +77,19 @@
                     <div id="circle"></div>
                 </section>
                 <section>
-                    <p id="goal-displa">
-                       <label for="txt-donation">Enter donation: </label>
+                    <h3 id="goal-display"></h3>
+                    <p>
+                        <label for="txt-donation">Enter Donation:</label>
                     </p>
                     <p>
-                    <input type="number" id="txt-donation">
-                    <button id="btn-add-donation">Add</button>
-                    <span id="donation-error" class = "error hidden">* Invalid</span>
+                        <input type="number" id="txt-donation">
+                        <button id="btn-add-donation">Add</button>
+                        <span id="donation-error" class="error hidden">* Invalid</span>
                     </p>
-                    
+                    <div class="columns">
+                        <div id="thermometer"></div>
+                        <p id="donation-message"></p>
+                    </div>
                 </section>
                 <section>
                     

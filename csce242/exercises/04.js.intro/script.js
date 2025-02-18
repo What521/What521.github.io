@@ -37,73 +37,84 @@ document.getElementById("txt-emotion").onkeyup = (event) => {
   //const emotion = document.getElementById("txt-emotion").value;
   document.getElementById("emotional-message").innerHTML = 
   "You are feeling " + event.currentTarget.value;
-};
-
-document.getElementById("txt-ColorEmotion").onclick = () =>{
- const color = document.getElementById("txt-ColorEmotional").value.toLowerCase().trim();
- let mood ="Happy";
-
- if(color == "blue"){ 
-  mood = "grumpy";
- }
-
- else if(color == "yellow"){
-  mood="mellow";
- }
-
- else{
-
- }
-
- document.getElementById("ColorEmotional-message").innerHTML = 'You chose ${color}.'
-};
+}
 
 //toggling the nav
 document.getElementById("toggle-nav").onclick = () => {
   document.getElementById("nav-items").classList.toggle("hide-small");
 };
 
+//show color message 
+document.getElementById("btn-choose-color").onclick = () => {
+  const color = document.getElementById("txt-color").value.toLowerCase().trim();
+  let mood = "";
+
+  if(color == "blue"){
+      mood = "grumpy";
+  } 
+  else if(color == "yellow"){
+      mood = "mellow";
+  }
+  else {
+      mood = "undefined";
+  }
+
+  
+  document.getElementById("color-message").innerHTML = 
+  `You chose ${color}. You are feeling ${mood}.`
+};
+
+/* moving the circle */
 let pos = 0;
 const changeCirclePos = (increment) => {
-    pos += increment;
-    document.getElementById("circle").style.setProperty("top", pos + "px");
+  pos += increment;
+  document.getElementById("circle").style.setProperty("top", pos + "px");
 };
 
 document.getElementById("btn-down").onclick = () => {
-    changeCirclePos(10);
+  changeCirclePos(10);
 }
 
 document.getElementById("btn-up").onclick = () => {
-    changeCirclePos(-10);
+  changeCirclePos(-10);
 }
 
-document.getElementById("btn-pick-color").onclick = (event) => {
+document.getElementById("btn-pick-color").onchange = (event) => {
   const color = event.currentTarget.value;
-  document.getElementById("circle").style.setProperty("background", color);
+  //document.getElementById("circle").style.setProperty("background", color);
+  document.getElementById("circle").style.setProperty("--circle-color", color);
 }
 
+/* Donations thermometer */
 const GOAL = 1000;
 let donations = 0;
 
-document.getElementById("goal-displa").innerHTML = 'Goal $${GOAL}';
+document.getElementById("goal-display").innerHTML = `Goal $${GOAL}`;
 
-document.getElementById("btn-add-donation").onclick = () =>{
+document.getElementById("btn-add-donation").onclick = () => {
+  //validate donation amount
+  const donation = document.getElementById("txt-donation").value;
+  document.getElementById("donation-error").classList.add("hidden");
 
-const donation = document.getElementById("txt-donation").value;
-document.getElementById("donation-error").classList.add("hidden");
+  if(isNaN(donation) ||donation <= 0){
+      document.getElementById("donation-error").classList.remove("hidden");
+      return;
+  }
 
-if(isNaN(donation) || donation <= 0)
-{
-  document.getElementById("donation-error").classList.remove("hidden");
-  return;
-}
+  //update donation
+  donations += parseFloat(donation);
+  donationPercent = donations / GOAL * 100;
 
-donations += donation;
-donationPercent = donations / GOAL * 100;
+  if(donations >= GOAL){
+      document.getElementById("donation-message").innerHTML = `Goal Reached!`;
+      donationPercent = 100;
+  } else {
+      //show donation message.
+  document.getElementById("donation-message").innerHTML = `$${GOAL - donations} to go!`;
+  }
 
-//show donation message
-document.getElementById("donation-message").innerHTML = '$${GOAL - donations} to go!';
-
-document.getElementById("thermometer").style.setProperty("--donation-percent", donationPercent + "%");
-
+  //update thermometer
+  document.getElementById("thermometer").style.setProperty("--donation-percent", donationPercent + "%");
 };
+
+

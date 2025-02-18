@@ -19,6 +19,7 @@ h1{
     padding: 3px;
     border: solid black 2px;
     text-align: center;
+    background: white;
 }
 
 #links a{
@@ -27,7 +28,7 @@ h1{
 }
 
 #links li a:hover{
-    color: whitesmoke;
+    color: crimson;
 }
 
 body p{
