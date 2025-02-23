@@ -21,10 +21,78 @@ document.getElementById("btn-display").onclick = () => {
         li.onclick = () => {
             favMessageP.innerHTML = `You clicked ${i}.`
         }
+    }  
+}
+
+let count = 0;
+let updateCount;
+
+document.querySelector("#btn-count").onclick = (event) =>
+{
+    if(event.currentTarget.innerHTML.toLowerCase()=="start")
+    {
+        event.currentTarget.innerHTML="Stop";
+        updateCount = setInterval(()=>{
+            count++;
+            document.querySelector("#count-display").innerHTML = count;
+        }, 300);
+    }
+     else
+    {
+        event.currentTarget.innerHTML = "Start";
+        clearInterval(updateCount);
     }
 }
 
-document.getElementById("btn-stairs").onclick = () =>
+document.querySelector("#reset-btn").onclick = () =>
 {
+    count = 0;
+    clearInterval(updateCount);
+    document.querySelector("#btn-count").innerHTML="Start";
+    document.querySelector("#count-display").innerHTML = "";
+}
+
+document.querySelectorAll("#btn-barbieList").onclick = (event) => {
+    const toys = ["ball", "boom", "drop", "boo!"];
+     
+    event.currentTarget.disabled = true; //only display this btn once
+
+   /* for(let i=0; i<barbie.length; i++)
+    {
+        document.getElementById("barbieDisplay").innerHTML=barbie[i];
+    }
+} */
+
+    const ul = document.createElement("ul");
+    document.getElementById("display-toys").append(ul);
+
+/*toys.forEach((toy, i)=>{
+    const li=document.createElement("li");
+    ul.append(li);
+    li.innerHTML = `${i+1}`. ${toy}`;
+});
+
+}*/
+
+document.getElementById("btn-show-toy-desc").onclick = () =>
+{
+    const toys = [];
+    toys["ball"] = "An item to throw";
+    toys["doll"] = "small hooman";
+    toys["rope"] = " a thing to tie with";
+
+    const section = document.getElementById("display-toy-descs");
+
+    for(let toy in toys)
+    {
+        const p = document.createElement("p");
+        section.append(p);
+        p.innerHTML = `${toy}: ${toys[toy]}`;
+        p.onclick = () =>
+        {
+            document.getElementById("toy-message").innerHTML = `Best ${toy} Ever. ${toys[toy]}`;
+        };
+    }
+}
 
 }

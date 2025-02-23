@@ -7,7 +7,7 @@ document.getElementById("arrow-down").onclick = () =>{
       arrowElement.innerHTML = "/\\";
       itemsList.classList.remove("hide");
     } 
-    
+         
     else 
     {
       arrowElement.innerHTML = "\\/";

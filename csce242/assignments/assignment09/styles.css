@@ -1,0 +1,70 @@
+body{
+    background: lightsalmon;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    padding: 15px;
+}
+
+header h1{
+    color: darkcyan;
+}
+
+header h2{
+    color: lightgreen;
+}
+
+.hide
+{
+    display: none;
+}
+
+#frame
+{
+    border-left: solid 2px;
+    border-right: solid 2px;
+    width: 90px;
+    position: relative;
+    left: 40%;
+}
+
+
+#ladder div{
+    width: 90px;
+    height: 3px;
+    background: black;
+    margin: 35px auto;
+}
+
+#displayImg{
+    position: absolute;
+    left: 210px;
+    top: 540px;
+}
+
+#btn-climb
+{
+    margin-top: 30px;
+}
+
+@media only screen and (min-width: 1200px)
+{
+
+#displayImg{
+    position: absolute;
+    left: 600px;
+    top: 540px;
+}
+
+#frame
+{
+    border-left: solid 2px;
+    border-right: solid 2px;
+    width: 90px;
+    position: relative;
+    left: 46%;
+}
+
+}
