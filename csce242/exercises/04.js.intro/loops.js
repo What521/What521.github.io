@@ -67,7 +67,7 @@ document.querySelectorAll("#btn-barbieList").onclick = (event) => {
     document.getElementById("display-toys").append(ul);
 
 /*toys.forEach((toy, i)=>{
-    const li=document.createElement("li");
+    const li=document.createElement("li"); 
     ul.append(li);
     li.innerHTML = `${i+1}`. ${toy}`;
 });

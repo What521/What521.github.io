@@ -1,0 +1,57 @@
+body{
+    background: beige;
+    text-align: center;
+}
+
+header{
+    text-align: center;
+}
+
+header h1{
+    color: mediumslateblue;
+}
+
+header h2{
+    color:brown;
+}
+
+footer{
+    text-align: center;
+    color: orangered;
+}
+
+footer a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+#display-names
+{
+  color:orchid;
+}
+
+#image-pop{
+    box-shadow : 5px 5px brown;
+    background: white;
+    color: darkgreen;
+    width: 290px;
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: center; 
+    position: absolute; 
+    left: 39%; 
+    top: 200px;
+}
+
+.hide
+{
+ display: none;
+}
+
+#close{
+    padding-left: 249px;
+    padding-top: 5px;
+}
+
