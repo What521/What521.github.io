@@ -96,9 +96,8 @@ body p{
         display: flex;
     }
 
-    #images img
-    {
-        flex: 1;
+    #images img{
+        flex:1;
     }
 
     #logo-part

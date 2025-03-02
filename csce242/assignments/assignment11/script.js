@@ -22,7 +22,7 @@ class pizza
        const pic = document.createElement("img");
        pic.src = this.image;
        pizzaDiv.appendChild(pic);
-
+ 
        return pizzaDiv;
     }
 };

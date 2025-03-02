@@ -59,13 +59,17 @@ li{
     margin:6px 0;
 }
 
-#images
-{
-    text-align: center;
+#images img{
+    margin: auto;
 }
 
 @media only screen and (min-width: 1200px)
 {
+    #images
+    {
+        text-align: center;
+    }
+    
     #toggle-bar{
         display: none;
     }

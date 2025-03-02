@@ -69,13 +69,16 @@ h1 a{
     color: papayawhip;
 }
 
-#actionImg, #romanceImg, #comedyImg{
-    text-align: center;
-    padding-right:100px;
+#actionImg img, #romanceImg img, #comedyImg img{
+    margin: auto;
 }
 
 @media only screen and (min-width: 1200px)
 {
+    #actionImg, #romanceImg, #comedyImg{
+        text-align: center;
+    }
+
     #toggle-bar{
         display: none;
     }

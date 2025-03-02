@@ -90,6 +90,11 @@ ul li a:hover{
 
 @media only screen and (min-width: 1200px)
 {
+    #randomPosters img
+{
+    padding-top: 5px;
+    margin: auto;
+}
 
     #toggle-bar{
         display: none;
@@ -119,7 +124,7 @@ ul li a:hover{
         display: flex;
     }
 
-    #randomPosters img, #randomPosters2 img{
+    #randomPosters2 img{
         flex:1;
     }
 
