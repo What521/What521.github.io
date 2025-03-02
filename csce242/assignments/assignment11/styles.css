@@ -1,0 +1,50 @@
+body{
+    background: beige;
+    text-align: center;
+}
+
+header{
+    text-align: center;
+}
+
+header h1{
+    color: mediumslateblue;
+}
+
+header h2{
+    color:brown;
+}
+
+footer{
+    text-align: center;
+    color: orangered;
+    margin-top: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+img{
+    height: 150px;
+    width: 200px;
+}
+
+main{
+    background: indianred;
+}
+
+@media (min-width: 1000px)
+{
+   #pizza-list
+   {
+    display: flex;
+   }
+
+   #pizza-list div
+   {
+    flex: 1;
+    padding: 9px;
+   }
+}
