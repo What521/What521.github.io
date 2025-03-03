@@ -1,9 +1,8 @@
 body{
     background: beige;
-    text-align: center;
 }
 
-header{
+header{ 
     text-align: center;
 }
 
@@ -35,8 +34,95 @@ main{
     background: indianred;
 }
 
+#pizza-list
+{
+    text-align: center;
+}
+
+#pizza-details
+{
+    background: khaki;
+    color: darkgreen;
+    width: 309px;
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    position: absolute; 
+    left: 20%;
+    top: 400px;
+    display: none;
+    animation-name: colorAnimation;
+    animation-duration: 2s; 
+    animation-iteration-count: infinite; 
+}
+
+#pizza-details img{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+#pizza-details li
+{
+   list-style-type: none;
+   padding-top: 10px;
+}
+
+span{
+    position: absolute;
+    bottom: 12%;
+    left: 80%;
+    display: none;
+}
+
+@keyframes colorAnimation {
+    0%{background-color: red;}
+    20%{background-color: orchid;}
+    40%{background-color: aqua;}
+    60%{background-color: gold;}
+    80%{background-color: pink;}
+    100%{background-color: cyan;
+    }
+  }
+
+@media only screen and (min-width: 1200px)
+{
+    span{
+        position: absolute;
+        left: 72%;
+        bottom: 74%;
+        display: none;
+    }
+
+    #pizza-details
+{
+    background: khaki;
+    color: darkgreen;
+    width: 590px;
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    position: absolute; 
+    left: 27%; 
+    top: 120px;
+    display: none;
+}
+
+#pizza-details img{
+    padding-left: 250px;
+    padding-top: 50px;
+}
+}
+
 @media (min-width: 1000px)
 {
+
+   #pizza-details div
+   {
+     display: flex;
+   }
+
    #pizza-list
    {
     display: flex;
