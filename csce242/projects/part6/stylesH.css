@@ -1,0 +1,155 @@
+body{
+    background: orangered;
+    color: lightgoldenrodyellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1
+{
+    padding: 10px;
+    font-size: 39px;
+}
+
+h2{
+    text-align: center;
+    background: black;
+    padding: 10px;
+}
+
+#links ul{
+    padding-left: 0;
+}
+
+#links li{
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+}
+
+#links a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+#logoTitle
+{
+    text-align: center;
+}
+
+#links li a:hover{
+    color: crimson;
+}
+
+#logo-part{
+    background: black;
+}
+
+#recommended
+{
+    text-align: center;
+}
+
+#recommended li{
+    list-style-type: none;
+    background: blanchedalmond;
+    margin: 59px;
+}
+
+ul a{
+    text-decoration: none;
+    color: black;
+}
+
+ul li a:hover{
+    color: white;
+}
+
+#randomPosters, #randomPosters2{
+    text-align: center;
+}
+
+#randomPosters2 img, #randomPosters img{
+    margin: 10px;
+}
+
+#toggle-bar div{
+    width:25px;
+    height:2px;
+    background-color: black;
+    margin:6px 0;
+}
+
+.hide-small{
+    display: none;
+}
+
+#RP
+{
+    background: blanchedalmond;
+}
+
+@media only screen and (min-width: 1200px)
+{
+    #randomPosters img
+{
+    padding-top: 5px;
+    margin: auto;
+}
+
+    #toggle-bar{
+        display: none;
+    }
+
+    #links ul
+    {
+        display:flex;
+    }
+
+    #links li
+    {
+        flex:1;
+    }
+
+    #recommended
+    {
+        display: flex;
+    }
+
+    #recommended li
+    {
+        flex:1;
+    }
+
+    #randomPosters, #randomPosters2{
+        display: flex;
+    }
+
+    #randomPosters2 img{
+        flex:1;
+    }
+
+    .hide-small {
+        display:flex;
+    }
+
+    #logo-part
+    {
+       display: flex;
+       box-shadow: 5px 5px burlywood;
+    }
+
+    #logoTitle{
+        display: flex;
+        
+    }
+
+    #links
+    {
+        margin-left: 200px;
+    }
+
+    #logoTitle img
+    {
+       padding: 3px;
+    }
+}

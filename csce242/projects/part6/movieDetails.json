@@ -1,0 +1,105 @@
+[
+    {
+        "titleR":"Red Notice",
+        "imagesR":"images",
+        "castR": "Cast: Dwayne Johnson, Ryan Reynolds",
+        "yearR": "Year: 2021",
+        "ratingR": "Rating: 6.3/10 IMDb"
+    },
+
+    {
+        "titleR":"Puss in the boots",
+        "imagesR":"images",
+        "castR": "Cast: Antonio Banderas, Salma Hayek",
+        "yearR": "Year: 2011",
+        "ratingR": "Rating: 6.6/10 IMDb"
+    },
+
+    {
+        "titleN":"A Knight's War",
+        "imagesN":"images",
+        "castN": "Cast: Jeremy Ninaber, Kristen Kaster",
+        "yearN": "Year: 2025",
+        "ratingN": "Rating: 7.1/10 IMDb"
+    },
+
+    {
+        "titleN":"Dark Nuns",
+        "imagesN":"images",
+        "castN": "Cast: Moon Woo-jin, Lee Jin-wook",
+        "yearN": "Year: 2025",
+        "ratingN": "Rating: 5.8/10 IMDb"
+    },
+
+    {
+        "titleA":"John Wick",
+        "imagesA":"images",
+        "castA": "Cast: Keanu Reeves, Adrianne Palicki",
+        "yearA": "Year: 2014",
+        "ratingA": "Rating: 7.4/10 IMDb"
+    },
+
+    {
+        "titleA":"The Fall Guy",
+        "imagesA":"images",
+        "castA": "Cast: Ryan Gosling, Emily Blunt",
+        "yearA": "Year: 2024",
+        "ratingA": "Rating: 6.8/10 IMDb"  
+    },
+
+    {
+        "titleA":"Flight Risk",
+        "imagesA":"images",
+        "castA": "Cast: Mark Wahlberg, Michelle Dockery",
+        "yearA": "Year: 2025",
+        "ratingA": "Rating: 5.3/10 IMDb"  
+    },
+
+    {
+        "titleC":"Free Guy",
+        "imagesC":"images",
+        "castC": "Cast: Ryan Reynolds, Jodie Comer",
+        "yearC": "Year: 2021",
+        "ratingC": "Rating: 7.1/10 IMDb"  
+    },
+
+    {
+        "titleC":"White Chicks",
+        "imagesC":"images",
+        "castC": "Cast: Shawn Wayans, Marlon Wayans",
+        "yearC": "Year: 2004",
+        "ratingC": "Rating: 5.8/10 IMDb"  
+    },
+
+    {
+        "titleC":"Fly me to the moon",
+        "imagesC":"images",
+        "castC": "Cast: Channing Tatum, Scarlett Johanessen",
+        "yearC": "Year: 2024",
+        "ratingC": "Rating: 6.6/10 IMDb"  
+    },
+
+    {
+        "titleR":"La La Land",
+        "imagesR":"images",
+        "castR": "Cast: Ryan Gosling, Emma Stone",
+        "yearR": "Year: 2016",
+        "ratingR": "Rating: 8/10 IMDb" 
+    },
+
+    {
+        "titleR":"The Idea of You",
+        "imagesR":"images",
+        "castR": "Cast: Anne Hathaway, Nicholas Galitzine",
+        "yearR": "Year: 2024",
+        "ratingR": "Rating: 6.3/10 IMDb" 
+    },
+
+    {
+        "titleR":"Anyone But You",
+        "imagesR":"images",
+        "castR": "Cast: Sydney Sweeney, Glen Powell",
+        "yearR": "Year: 2023",
+        "ratingR": "Rating: 6.1/10 IMDb" 
+    }
+]
