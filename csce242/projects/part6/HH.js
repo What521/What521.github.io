@@ -14,9 +14,9 @@ const getMovieDetails = async () =>{
 
 const showMovieDetails = async () =>
 {
-    const MovieDetails = await getMovieDetails ();
+    const MovieDetails = await getMovieDetails();
 
-    MovieDetails.forEach = ((Detail)=>{
+    MovieDetails.forEach((Detail)=>{
         const recUl = document.getElementById("recommended");
         const li = document.createElement("li");
         const section = document.createElement("section");
@@ -42,6 +42,7 @@ const showMovieDetails = async () =>
         const p3 = document.createElement("p");
         p3.innerHTML = Detail.rating;
         section.append(p3);    
+        
     })
 };
 

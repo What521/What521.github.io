@@ -1,5 +1,6 @@
 [
     {
+        "link":"RN.html",
         "title":"Red Notice",
         "image":"images/RN.jfif",
         "cast": "Cast: Dwayne Johnson, Ryan Reynolds",
@@ -8,6 +9,7 @@
     },
 
     {
+        "link":"PB.html",
         "title":"Puss in the boots",
         "image":"images/PB.jfif",
         "cast": "Cast: Antonio Banderas, Salma Hayek",
