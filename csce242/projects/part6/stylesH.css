@@ -44,12 +44,12 @@ h2{
     background: black;
 }
 
-#recommended
+#recommended, #nowStreaming
 {
     text-align: center;
 }
 
-#recommended li{
+#recommended li, #nowStreaming li{
     list-style-type: none;
     background: blanchedalmond;
     margin: 59px;
@@ -110,12 +110,12 @@ ul li a:hover{
         flex:1;
     }
 
-    #recommended
+    #recommended, #nowStreaming
     {
         display: flex;
     }
 
-    #recommended li
+    #recommended li, #nowStreaming li
     {
         flex:1;
     }
