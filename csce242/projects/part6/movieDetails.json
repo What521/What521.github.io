@@ -1,19 +1,99 @@
 [
     {
-        "link":"RN.html",
-        "title":"Red Notice",
-        "image":"images/RN.jfif",
-        "cast": "Cast: Dwayne Johnson, Ryan Reynolds",
+        "be_id":"1",
+        "genre":"action",
+        "title":"John Wick",
+        "image":"images/JWimg.jfif",
+        "cast": "Cast: Keanu Reeves, Adrianne Palicki",
+        "year": "Year: 2014",
+        "rating": "Rating: 7.4/10 IMDb"
+    },
+
+
+    {
+        "be_id":"2",
+        "genre":"action",
+        "title":"The Fall Guy",
+        "image":"images/FGimg.jfif",
+        "cast": "Cast: Ryan Gosling, Emily Blunt",
+        "year": "Year: 2024",
+        "rating": "Rating: 6.8/10 IMDb"  
+    },
+
+
+    {
+        "be_id":"3",
+        "genre":"action",
+        "title":"Flight Risk",
+        "image":"images/FR.jfif",
+        "cast": "Cast: Mark Wahlberg, Michelle Dockery",
+        "year": "Year: 2025",
+        "rating": "Rating: 5.3/10 IMDb"  
+    },
+
+
+    {
+        "be_id":"4",
+        "genre":"comedy",
+        "title":"Free Guy",
+        "image":"images/FreeG.jfif",
+        "cast": "Cast: Ryan Reynolds, Jodie Comer",
         "year": "Year: 2021",
+        "rating": "Rating: 7.1/10 IMDb"  
+    },
+
+
+    {
+        "be_id":"5",
+        "genre":"comedy",
+        "title":"White Chicks",
+        "image":"images/WC.jfif",
+        "cast": "Cast: Shawn Wayans, Marlon Wayans",
+        "year": "Year: 2004",
+        "rating": "Rating: 5.8/10 IMDb"  
+    },
+
+
+    {
+        "be_id":"6",
+        "genre":"comedy",
+        "title":"Fly me to the moon",
+        "image":"images/flmm.jfif",
+        "cast": "Cast: Channing Tatum, Scarlett Johanessen",
+        "year": "Year: 2024",
+        "rating": "Rating: 6.6/10 IMDb"  
+    },
+
+
+    {
+        "be_id":"7",
+        "genre":"romance",
+        "title":"La La Land",
+        "image":"images/LLL.jfif",
+        "cast": "Cast: Ryan Gosling, Emma Stone",
+        "year": "Year: 2016",
+        "rating": "Rating: 8/10 IMDb"
+    },
+
+
+    {
+        "be_id":"8",
+        "genre":"romance",
+        "title":"The Idea of You",
+        "image":"images/idea.jfif",
+        "cast": "Cast: Anne Hathaway, Nicholas Galitzine",
+        "year": "Year: 2024",
         "rating": "Rating: 6.3/10 IMDb"
     },
 
+
     {
-        "link":"PB.html",
-        "title":"Puss in the boots",
-        "image":"images/PB.jfif",
-        "cast": "Cast: Antonio Banderas, Salma Hayek",
-        "year": "Year: 2011",
-        "rating": "Rating: 6.6/10 IMDb"
+        "be_id":"9",
+        "genre":"romance",
+        "title":"Anyone But You",
+        "image":"images/anyone.jfif",
+        "cast": "Cast: Sydney Sweeney, Glen Powell",
+        "year": "Year: 2023",
+        "rating": "Rating: 6.1/10 IMDb"
     }
 ]
