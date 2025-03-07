@@ -1,6 +1,7 @@
 [
     {
         "be_id":"1",
+        "link":"JW.html",
         "genre":"action",
         "title":"John Wick",
         "image":"images/JWimg.jfif",
@@ -12,6 +13,7 @@
 
     {
         "be_id":"2",
+        "link":"FG.html",
         "genre":"action",
         "title":"The Fall Guy",
         "image":"images/FGimg.jfif",
@@ -23,6 +25,7 @@
 
     {
         "be_id":"3",
+        "link":"FR.html",
         "genre":"action",
         "title":"Flight Risk",
         "image":"images/FR.jfif",
@@ -34,6 +37,7 @@
 
     {
         "be_id":"4",
+        "link":"FreeG.html",
         "genre":"comedy",
         "title":"Free Guy",
         "image":"images/FreeG.jfif",
@@ -45,6 +49,7 @@
 
     {
         "be_id":"5",
+        "link":"WC.html",
         "genre":"comedy",
         "title":"White Chicks",
         "image":"images/WC.jfif",
@@ -56,6 +61,7 @@
 
     {
         "be_id":"6",
+        "link":"flmm.html",
         "genre":"comedy",
         "title":"Fly me to the moon",
         "image":"images/flmm.jfif",
@@ -67,6 +73,7 @@
 
     {
         "be_id":"7",
+        "link":"LLL.html",
         "genre":"romance",
         "title":"La La Land",
         "image":"images/LLL.jfif",
@@ -78,6 +85,7 @@
 
     {
         "be_id":"8",
+        "link":"idea.html",
         "genre":"romance",
         "title":"The Idea of You",
         "image":"images/idea.jfif",
@@ -89,6 +97,7 @@
 
     {
         "be_id":"9",
+        "link":"anyone.html",
         "genre":"romance",
         "title":"Anyone But You",
         "image":"images/anyone.jfif",
