@@ -69,8 +69,16 @@ h1 a{
     color: papayawhip;
 }
 
-#actionImg img, #romanceImg img, #comedyImg img{
-    margin: auto;
+#actionImg, #comedyImg, #romanceImg
+{
+   margin-right: 60px;
+   margin-bottom: 5px;
+}
+
+#actionImg section, #comedyImg section, #romanceImg section
+{
+    border: 3px solid black;
+    margin: 5px;
 }
 
 #MG{
@@ -82,13 +90,13 @@ h1 a{
 }
 
 #actionImg img{
-    width: 250px;
-    height: 300px;
+    width: 200px;
+    height: 250px;
 }
 
 #comedyImg img{
-    width: 250px;
-    height: 300px;
+    width: 240px;
+    height: 280px;
 }
 
 #romanceImg img{
@@ -100,6 +108,7 @@ a{
     text-decoration: none;
     color: blanchedalmond;
 }
+
 @media only screen and (min-width: 1200px)
 {
     #actionImg, #romanceImg, #comedyImg{
