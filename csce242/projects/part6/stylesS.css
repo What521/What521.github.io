@@ -75,6 +75,10 @@ h1 a{
    margin-bottom: 5px;
 }
 
+#actionImg img, #romanceImg img, #comedyImg img{
+    margin: auto;
+}
+
 #actionImg section, #comedyImg section, #romanceImg section
 {
     border: 3px solid black;
@@ -132,6 +136,10 @@ a{
     #actionImg, #comedyImg, #romanceImg
     {
         display: flex;
+    }
+
+    #actionImg a, #comedyImg a, #romanceImg a{
+        flex: 1;
     }
 
     #actionImg section, #comedyImg section, #romanceImg section{
